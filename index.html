@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="bg">
+        <div id="blackLayer"></div>
+        <img src="poster1.jpeg" alt="kkmlll" id="imeg"/>
+    </div>
+    <div id="main">
+        <div id="image">
+        <img src="poster1.jpeg" alt="ooplj" id="imag"/>
+        </div>
+    
+    <div id="player">
+        <div id="songTitle">Demo</div>
+        <div id="buttons">
+            <button id="pre" onclick="pre()">
+                <i class="fa fa-step-backward" id="preb"></i>
+            </button>
+            <button id="play" onclick="playOrPauseSong()">
+                <i class="fa fa-pause" id="playb"></i>
+            </button>
+            <button id="next" onclick="next()">
+                <i class="fa fa-step-forward" id="nextb"></i>
+            </button>
+        </div>
+        <div id="seek-bar">
+            <div id="fill"></div>
+            <div id="handle"></div>
+        </div>
+        <div id="currentTime">00:00 / 00:00 </div>
+
+        <div id="volume">
+            <button id="decrease" onclick="decreaseVolume()">
+                -
+            </button>
+            <button id="volumeIcon">
+                <i class="fa fa-volume-up"></i>
+            </button>
+            <button id="increase" onclick="increaseVolume()">
+                +
+            </button>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
